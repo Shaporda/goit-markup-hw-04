@@ -114,7 +114,6 @@ a {
     flex-direction: row;
     gap: 40px;
     padding: 24px 0;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-item {
@@ -126,6 +125,11 @@ a {
     text-decoration: unset;
     padding: 24px 0;
     display: block;
+}
+
+.header-menu-link
+.header-address-item {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link.current {
@@ -179,7 +183,6 @@ address {
     padding: 24px 0;
     display: flex;
     gap: 40px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #header-address-link {
